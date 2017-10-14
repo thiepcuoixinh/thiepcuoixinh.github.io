@@ -1,0 +1,95 @@
+<nav class="navbar">
+    <div class="container">
+        <div class="menu-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="top-bar"></span>
+                <span class="middle-bar"></span>
+                <span class="bottom-bar"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="nav-tools">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="javascript:void(0);"><i class="ei ei-shopping-cart"></i> 2</a>
+                        <ul class="cart-menu dropdown-menu">
+                            <li class="cart-menu-item">
+                                <a href="product-single.html" class="cart-menu-media">
+                                    <img class="img-responsive" src="images/product/cart-item-1.jpg" alt="">
+                                </a>
+
+                                <div class="product-details">
+                                    <a href="product-single.html" class="product-name">Cotton T- Shirt</a>
+                                    <span class="price">$400.00</span>
+                                    <a class="remove" href="javascript:void(0);"><i class="ei ei-close"></i></a>
+                                </div>
+                            </li>
+                            <li class="cart-menu-item">
+                                <a href="product-single.html" class="cart-menu-media">
+                                    <img class="img-responsive" src="images/product/cart-item-2.jpg" alt="">
+                                </a>
+
+                                <div class="product-details">
+                                    <a href="product-single.html" class="product-name">Party Dress</a>
+                                    <span class="price">$400.00</span>
+                                    <a class="remove" href="javascript:void(0);"><i class="ei ei-close"></i></a>
+                                </div>
+                            </li>
+                            <li class="cart-menu-subtotal">
+                                <span>Sub Total</span>
+                                <span class="amount">$800</span>
+                            </li>
+                            <li class="cart-menu-bottom">
+                                <a class="btn check-out" href="checkout.html"><i
+                                        class="ei ei-shopping-cart-dash pdd-horizon-5"></i> View Cart</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a id="menu-search" href="javascript:void(0);"><i class="ei ei-search-alt"></i></a>
+                    </li>
+                </ul>
+                <form action='#' id='search' method='get'>
+                    <div class="search-input">
+                        <div class="container">
+                            <input class="search" placeholder='Search...' type='text'>
+                            <button class="submit ei ei-search" type="submit" value="close"></button>
+                        </div>
+                    </div>
+                    <button class="ei ei-close" id="close" type="reset"></button>
+                </form>
+            </div>
+            <div class="nav-logo">
+                <a class="logo" href="index.html"><img class="logo-light" src="images/logo/logo-1.png"
+                                                       alt="Eastern"></a>
+                <a class="logo" href="index.html"><img class="logo-dark" src="images/logo/logo-2.png" alt="Eastern"></a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse nav-collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-item" ui-sref-active="active">
+                    <a ui-sref="root.home">Trang chủ</a>
+                </li>
+                <li class="nav-item dropdown" ui-sref-active="active">
+                    <a class="dropdown-toggle" href="javascript:void(0);">Danh mục <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="root.product.wi">Thiệp cưới truyền thống</a></li>
+                        <li><a ui-sref="root.product.nc">Thiệp cưới hiện đại</a></li>
+                        <li><a ui-sref="root.product.cl">Thiệp cưới đơn giản</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" ui-sref-active="active">
+                    <a ui-sref="root.blog">Blog</a>
+                </li>
+                <li class="nav-item" ui-sref-active="active">
+                    <a ui-sref="root.guide">Hướng dẫn mua hàng</a>
+                </li>
+                <li class="nav-item" ui-sref-active="active">
+                    <a ui-sref="root.about">Về chúng tôi</a>
+                </li>
+                <li class="nav-item" ui-sref-active="active">
+                    <a ui-sref="root.contact">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
